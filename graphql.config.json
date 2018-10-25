@@ -1,0 +1,18 @@
+{
+  "schema": {
+    "file": "schema.graphqls"
+  },
+
+  "endpoints" : [
+    {
+      "name": "apollo",
+      "url": "http://localhost:4000",
+      "options" : {
+        "headers": {
+          "user-agent" : "JS GraphQL"
+        }
+      }
+    }
+  ]
+
+}
