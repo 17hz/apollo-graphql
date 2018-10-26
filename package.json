@@ -4,12 +4,17 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "watch": "nodemon app.js"
+    "watch": "nodemon app.js",
+    "schema": "apollo schema:download --endpoint=http://127.0.0.1:4000"
   },
   "dependencies": {
     "apollo": "^1.9.2",
+    "apollo-datasource-rest": "^0.1.5",
     "apollo-server": "^2.1.0",
     "graphql": "^14.0.2",
-    "nodemon": "^1.18.4"
+    "leancloud-storage": "^3.10.0",
+    "lodash": "latest",
+    "nodemon": "^1.18.4",
+    "shorthash": "latest"
   }
 }
