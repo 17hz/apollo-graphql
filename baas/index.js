@@ -8,9 +8,7 @@ AV.init({
     appKey: APP_KEY
 });
 
-const Dog = AV.Object.extend('Dog')
-const dog = new Dog()
-// dog.set('name','tom');
+const Dog = AV.Object.extend('Dog');
+const dog = new Dog();
 dog.get('name').then(a=> console.log(a));
-// dog.save().then(dog => console.log(dog) , e=> console.log(e) )
 
